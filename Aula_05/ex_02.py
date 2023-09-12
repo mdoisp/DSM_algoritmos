@@ -13,6 +13,6 @@ else:
     else:
         resultado = "Aprovado"
 
-print(f"Média {media:5.2f} - {resultado}!")
+print(f"Média {media:5.1f} - {resultado}!")
 if nota_exame != 0:
-    print(f"Tem que tirar no mínimo {nota_exame:5.2}")
+    print(f"Tem que tirar no mínimo {nota_exame:5.1f}")
